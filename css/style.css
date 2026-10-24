@@ -3322,6 +3322,61 @@ body.lang-en .footer-links a:hover {
   background: transparent;
 }
 
+/* Footer Light Mode — keep footer dark but fix text colors */
+[data-theme="light"] .site-footer,
+:root .site-footer {
+  background: #0f2040;
+}
+
+[data-theme="light"] .footer-brand-desc,
+:root .footer-brand-desc {
+  color: #9bb0c6;
+}
+
+[data-theme="light"] .footer-col-title,
+:root .footer-col-title {
+  color: #f8fafc;
+}
+
+[data-theme="light"] .footer-links,
+:root .footer-links {
+  color: #9bb0c6;
+}
+
+[data-theme="light"] .footer-links a,
+:root .footer-links a {
+  color: #9bb0c6;
+}
+
+[data-theme="light"] .footer-links a:hover,
+:root .footer-links a:hover {
+  color: #f5821f;
+}
+
+[data-theme="light"] .footer-bottom,
+:root .footer-bottom {
+  color: #627b97;
+  border-top-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="light"] .footer-bottom a,
+:root .footer-bottom a {
+  color: #9bb0c6;
+}
+
+[data-theme="light"] .icon-btn,
+:root .icon-btn {
+  color: #9bb0c6;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="light"] .icon-btn:hover,
+:root .icon-btn:hover {
+  color: #f5821f;
+  border-color: rgba(245, 130, 31, 0.5);
+  background: rgba(245, 130, 31, 0.12);
+}
+
 /* -------------------------------------------------------------------------
    RESPONSIVE
    ------------------------------------------------------------------------- */
